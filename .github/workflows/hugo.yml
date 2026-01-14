@@ -23,7 +23,8 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify  # Output goes to ./public by default
 
-      # 4. Deploy to GitHub Pages
+
+        # 4. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
