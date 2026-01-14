@@ -1,6 +1,4 @@
 #+title: About
-#+hugo_weight: 1
-#+hugo_section: docs
-
+#+type: basic
 
 Hello, my name is Taha Rana. I am a sophomore at Rutgers University studying Math and Computer Science.

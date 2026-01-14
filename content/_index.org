@@ -1,8 +1,5 @@
 #+title: Taha Rana
-#+DATE: 2026-01-14
-#+DRAFT: false
-#+tags[]: home
-
+#+type: basic
 * This is my actual content
 Here is the text of my about page.
 
