@@ -1,7 +1,0 @@
-#+title: Taha Rana
-#+type: basic
-* This is my actual content
-Here is the text of my about page.
-
-
-* My website!

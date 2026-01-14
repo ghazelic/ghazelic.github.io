@@ -1,1 +1,0 @@
-# ghazelic.github.io
