@@ -4,35 +4,44 @@
 <meta charset="UTF-8">
 <title>Taha Rana</title>
 
+<!-- Import Jersey 25 Charted font from Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap" rel="stylesheet">
+
 <style>
     body {
         margin: 0;
         width: 100%;
         height: 100%;
-        position: absolute;
-        display: table;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: "Times New Roman", Times, serif;
+        background-color: #f9f9f9;
     }
 
     .container {
-        display: table-cell;
-        vertical-align: middle;
         text-align: center;
-        padding: 20px;
+        padding: 20px 40px;
     }
 
     .name-text {
-        font-family: "Times New Roman", Times, serif;
+        font-family: 'Jersey 25 Charted', serif;
         font-size: 3em;
         font-weight: bold;
         letter-spacing: -1px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .about-text {
         max-width: 600px;
-        margin: 0 auto 40px auto;
+        margin: 0 auto 30px auto;
         line-height: 1.5;
+        font-size: 1.1em;
+    }
+
+    .links {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .links a {
@@ -47,9 +56,38 @@
         color: #fff;
         text-decoration: none;
     }
-</style>
-</head>
 
+    #timezone {
+        margin-top: 20px;
+        font-style: italic;
+        font-size: 0.95em;
+    }
+
+    #timezone a {
+        text-decoration: none;
+        color: #000;
+        margin: 0 4px;
+    }
+</style>
+
+<script>
+    function updateTime() {
+        const options = {
+            timeZone: 'America/New_York', // New Brunswick, NJ timezone
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            hour12: true
+        };
+        const formatter = new Intl.DateTimeFormat([], options);
+        document.getElementById("time").innerText = formatter.format(new Date());
+    }
+
+    setInterval(updateTime, 1000);
+    window.onload = updateTime;
+</script>
+
+</head>
 <body>
     <div class="container">
         <div class="name-text">Taha Rana</div>
@@ -64,8 +102,14 @@
             <a href="about.html">about</a>// 
             <a href="mailto:tahaqrana4@gmail.com">email</a>// 
             <a href="https://github.com/ghazelic">github</a>// 
-            <a href="blog.html">blog</a> 
+            <a href="blog.html">blog</a>
+        </div>
+
+        <div id="timezone">
+            Current Time in New Brunswick, NJ: <span id="time">--:--:--</span> 
+            <a href="https://24timezones.com/usa_time/nj_middlesex/new_brunswick.php" target="_blank">(link)</a>
         </div>
     </div>
 </body>
 </html>
+
