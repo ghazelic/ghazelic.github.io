@@ -1,0 +1,18 @@
+baseURL = "https://taharana.me/"
+languageCode = "en-us"
+title = "Taha Rana"
+
+theme = "hugo-book"
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  BookTheme = "light"
+  BookSearch = true
+  BookComments = false
+
