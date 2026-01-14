@@ -3,31 +3,33 @@ name: Build & Deploy Hugo site
 on:
   push:
     branches:
-      - main  # Trigger build on pushes to main branch
+      - main
+
+# 1. FIX PERMISSIONS (Crucial)
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Get your repo
       - uses: actions/checkout@v3
 
-      # 2. Set up Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.111.3"  # or latest stable
+          hugo-version: "0.111.3"
 
-      # 3. Build site
       - name: Build Hugo site
-        run: hugo --minify  # Output goes to ./public by default
+        run: hugo --minify
 
-
-        # 4. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          # 2. FIX CUSTOM DOMAIN
+          cname: taharana.me 
 
+# bruh
