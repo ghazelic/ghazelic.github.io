@@ -1,5 +1,7 @@
 ---
-title: "Notes"
+title: "Home"
 ---
 
-Welcome to my notes.
+# Home Page
+
+Links: 

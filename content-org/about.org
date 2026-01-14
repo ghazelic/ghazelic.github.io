@@ -1,0 +1,7 @@
+#+title: About
+#+hugo_base_dir: ~/CODE/ghazelic.github.io
+#+hugo_weight: 1
+#+hugo_section: docs
+
+
+Hello, my name is Taha Rana. I am a sophomore at Rutgers University studying Math and Computer Science.
