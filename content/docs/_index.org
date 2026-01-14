@@ -1,3 +1,10 @@
-#+title:  Taha Rana
+#+title: About Me
+#+DATE: 2026-01-14
+#+DRAFT: false
+#+tags[]: about
+
+* This is my actual content
+Here is the text of my about page.
+
 
 * My website!
