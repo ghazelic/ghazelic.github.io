@@ -1,0 +1,5 @@
+baseURL = 'https://www.taharana.me/'
+languageCode = 'en-us'
+title = 'Taha Rana'
+
+theme = 'lugo'
