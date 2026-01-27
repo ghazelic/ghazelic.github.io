@@ -1,5 +1,5 @@
 +++
-title = "Taha Rana"
+title = 'Taha Rana'
 +++
 Hi! I am a CS & Math student at Rutgers. 
 Socials:
