@@ -4,5 +4,8 @@ title = 'About'
 tags = ['personal']
 +++
 
-Hi! I am a Student at Rutgers University studying Math and Computer Science.
+Some things about me:
+- School: Rutgers University
+- Major: CS & Math
+
 
