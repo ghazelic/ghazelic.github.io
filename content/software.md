@@ -7,7 +7,7 @@ tags = ['software']
 Here's the software I use for macOS:
 - terminal: iterm2 w/ tmux
 - text editor: nvim
-- notetaking: Typst and paper for CS and Math, plain text
+- notetaking: Typst w/ tinymist and typst preview, plain text, and paper 
 - Time: timewarrior
 - Tasks: taskwarrior
 

@@ -16,11 +16,11 @@ Socials:
 - [Github](https://github.com/tqrana)
 - [LinkedIn](https://www.linkedin.com/in/taha-rana-734513290)
 - Email: tahaqrana4 at gmail dot com
-- [Listenbrainz](https://listenbrainz.org/user/teehee/)
 
-Hardware:
-- Computer: base m1 mac
-- eink: nook glowlight
-- iems: simgot ew200
-- fountain pen: twisbi eco
-- ink: take-sumi iroshizuku
+
+
+
+
+
+
+
