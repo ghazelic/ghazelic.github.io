@@ -2,9 +2,7 @@
 title = 'Taha Rana'
 +++
 
-Hi! I am a CS & Math student at Rutgers. 
-
-
+Hi! I am a CS & Math student at Rutgers. I am currently learning Python and C. 
 
 Socials:
 - [Github](https://github.com/tqrana)
